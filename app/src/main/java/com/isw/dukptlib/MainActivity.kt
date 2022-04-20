@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         checkLogic()
     }
 
+
+    /*
+    * The Ksn here is the ksn with the key counter*/
     private fun checkLogic() {
         val block  = Converter.GetPinBlock("",
             "", "", "")

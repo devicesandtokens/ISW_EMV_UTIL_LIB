@@ -1,4 +1,4 @@
-package com.isw.dukptlib
+package com.isw.emvutil
 
 import org.junit.Test
 

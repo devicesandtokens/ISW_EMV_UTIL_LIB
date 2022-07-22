@@ -16,9 +16,11 @@ class MainActivity : AppCompatActivity() {
     /*
     * The Ksn here is the ksn with the key counter*/
     private fun checkLogic() {
-        val block  = Converter.GetPinBlock("",
-            "", "", "")
+        val block  = Converter.GetPinBlock("3F2216D8297BCE9C",
+            "0000000002DDDDE00002", "1994", "4105400015916727")
 
         println("this is the pin block oo => $block")
+
     }
+
 }
